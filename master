@@ -1,7 +1,7 @@
 file_roots:
   base:
-    - /srv/salt
+    - ./salt
 pillar_roots:
   base: 
-    - /srv/pillars  
+    - ./pillars  
 state_verbose: True
