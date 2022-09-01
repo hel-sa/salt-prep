@@ -1,0 +1,4 @@
+salt-ssh:
+  config_dir: ./
+  ssh_max_procs: 30
+  ssh_wipe: False
