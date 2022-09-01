@@ -1,13 +1,13 @@
-/tmp/randomdir:
+/tmp/testdir:
   file.directory:
     - user: {{ salt.cmd.run('whoami') }}
     - mode: 740
     - makedirs: True
 
-/tmp/randomdir/randomfile2:
+/tmp/testdir/testfile2:
   file.touch
 
-/tmp/randomdir/randomfile:
+/tmp/testdir/testfile:
   file.append:
       - text: 
           - Helloooo
