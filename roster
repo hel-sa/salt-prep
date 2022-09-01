@@ -1,0 +1,6 @@
+mint:
+  host: 127.0.0.1
+  user: cienna
+  passwd: cienna123
+  sudo: True
+  tty: True
