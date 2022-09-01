@@ -1,0 +1,2 @@
+# salt-prep
+Simple Saltstack
