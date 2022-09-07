@@ -1,6 +1,6 @@
 mint:
   host: 127.0.0.1
   user: cienna
-  priv: ~/.ssh/salt_rsa.pub
+  priv: ~/.ssh/salt_con_rsa.pub
   sudo: True
   tty: True
